@@ -5,7 +5,7 @@
 > the burger — as one continuous shot, no cuts. **Every frame was generated with
 > [Kubeez](https://kubeez.com).**
 
-### ▶️ **[Live demo → meepcastana.github.io/kubeez-scroll-world-video](https://meepcastana.github.io/kubeez-scroll-world-video/)**
+### ▶️ **[Live demo → kubeezmedia.github.io/kubeez-scroll-world-video](https://kubeezmedia.github.io/kubeez-scroll-world-video/)**
 
 *(Open on desktop and scroll. The scroll wheel drives the camera — like Apple's product pages.)*
 
