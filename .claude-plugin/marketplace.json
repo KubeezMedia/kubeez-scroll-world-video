@@ -1,0 +1,13 @@
+{
+  "name": "kubeez",
+  "owner": { "name": "Kubeez", "url": "https://kubeez.com" },
+  "description": "Kubeez skills for AI coding agents. Generate media-rich experiences end-to-end on the Kubeez platform.",
+  "plugins": [
+    {
+      "name": "scroll-world-video",
+      "source": "./",
+      "description": "Build a scroll-scrubbed 'fly through the world' landing page, generated end-to-end on Kubeez.",
+      "version": "1.0.0"
+    }
+  ]
+}

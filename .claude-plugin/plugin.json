@@ -1,0 +1,17 @@
+{
+  "name": "scroll-world-video",
+  "displayName": "Kubeez Scroll-World-Video",
+  "version": "1.0.0",
+  "description": "Turn any business into a scroll-scrubbed 'fly through the world' landing page. Interviews you for topic + brand, generates the world (stills + seamless forward-glide video) end-to-end on the Kubeez platform, and wires a portable scroll-scrub engine. Requires the Kubeez MCP.",
+  "author": { "name": "Kubeez", "url": "https://kubeez.com" },
+  "homepage": "https://kubeezmedia.github.io/kubeez-scroll-world-video/",
+  "repository": "https://github.com/KubeezMedia/kubeez-scroll-world-video",
+  "license": "MIT",
+  "keywords": ["kubeez", "scroll", "landing-page", "3d-world", "video", "diorama", "media-generation"],
+  "mcpServers": {
+    "kubeez": {
+      "type": "http",
+      "url": "https://mcp.kubeez.com/mcp"
+    }
+  }
+}

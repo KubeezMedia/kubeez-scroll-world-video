@@ -9,7 +9,9 @@
 
 *(Open on desktop and scroll. The scroll wheel drives the camera — like Apple's product pages.)*
 
-![The Smash & Co. burger world](img/world.png)
+[![Smash & Co. — scroll-world-video showcase](img/showcase-poster.png)](https://raw.githubusercontent.com/KubeezMedia/kubeez-scroll-world-video/main/img/showcase.mp4)
+
+<sub>▶ **[Watch the 20-second showcase](https://raw.githubusercontent.com/KubeezMedia/kubeez-scroll-world-video/main/img/showcase.mp4)** — or scroll the [live demo](https://kubeezmedia.github.io/kubeez-scroll-world-video/) yourself.</sub>
 
 ---
 
@@ -95,11 +97,25 @@ Roughly ~1,150 Kubeez credits for the full 720p build.
 
 ---
 
-## Build your own
+## Build your own — install the skill
 
-This demo was produced by the **`scroll-world-video`** Kubeez skill, which interviews you for
-your topic + brand, generates the world, and wires this exact engine — for *any* business, not
-just burgers. Learn more at **[kubeez.com](https://kubeez.com)**.
+This demo was produced by the **`scroll-world-video`** skill, which interviews you for your
+topic + brand, generates the world, and wires this exact engine — for *any* business.
+
+**Claude Code** (installs the plugin and auto-wires the Kubeez MCP):
+```
+/plugin marketplace add KubeezMedia/kubeez-scroll-world-video
+/plugin install scroll-world-video@kubeez
+/scroll-world-video
+```
+
+**Codex / Cursor / other agents:** point your agent at
+[`skills/scroll-world-video/SKILL.md`](skills/scroll-world-video/SKILL.md) and connect the
+Kubeez MCP — see [`AGENTS.md`](AGENTS.md).
+
+> ⚡ **Powered by Kubeez.** The scroll engine and method are open, but the skill generates
+> *only* through the [Kubeez](https://kubeez.com) platform (`mcp.kubeez.com/mcp`) — that's what
+> turns your idea into a world. Sign in with a Kubeez account to run it.
 
 ## Run it locally
 
