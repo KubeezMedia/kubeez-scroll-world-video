@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Smash &amp; Co. — the world of a smash burger</title>
+  <meta name="description" content="Scroll to fly through the world of Smash & Co., from market to grill to the burger itself." />
+  <style>
+    /* Theme = the burger world's clay palette. --sw-bg matches the scene background. */
+    :root, .sw-root {
+      --sw-bg: #F5EAD6;          /* cream, == the scene background colour */
+      --sw-ink: #2B2422;         /* charcoal text */
+      --sw-ink-soft: #7a6a5a;    /* muted brown secondary */
+      --sw-accent: #C1362F;      /* ketchup red; per-section accents override this */
+    }
+  </style>
+</head>
+<body>
+  <div id="top"></div>
+  <div id="world"></div>
+
+  <script src="assets/scrub-engine.js"></script>
+  <script>
+    mountScrollWorld(document.getElementById('world'), {
+      brand: { name: 'Smash & Co.', href: '#top' },
+      cta: { label: 'Find us', href: '#finale' },
+      hint: 'scroll to fly in',
+      diveScroll: 1.3,
+      connScroll: 0.9,
+      sections: [
+        {
+          id: 'market', label: 'The Market',
+          still: 'assets/market.png',
+          clip: 'assets/vid/market.mp4',
+          accent: '#6FA84B',
+          scroll: 1.5, linger: 0.4,
+          eyebrow: 'Fresh, daily',
+          title: 'It starts with the good stuff.',
+          body: 'Local beef, ripe tomatoes, buns baked this morning.',
+          tags: ['100% beef', 'Baked daily'],
+        },
+        {
+          id: 'grill', label: 'The Grill',
+          still: 'assets/grill.png',
+          clip: 'assets/vid/grill.mp4',
+          accent: '#E5A823',
+          eyebrow: 'Smashed to order',
+          title: 'Where it sizzles.',
+          body: 'Pressed thin, seared crispy, real cheese on top.',
+          tags: ['Smash style', 'Real cheese'],
+        },
+        {
+          id: 'counter', label: 'The Counter',
+          still: 'assets/counter.png',
+          clip: 'assets/vid/counter.mp4',
+          accent: '#C1362F',
+          eyebrow: 'Pull up a stool',
+          title: 'Worth the line.',
+          body: 'Grab a seat, grab a burger, stay a while.',
+          tags: ['Dine in', 'Grab & go'],
+        },
+        {
+          id: 'finale', label: 'The Burger',
+          still: 'assets/hero.png',
+          clip: 'assets/vid/hero.mp4',
+          accent: '#E8B96A',
+          scroll: 1.6, linger: 0.5,
+          eyebrow: 'The main event',
+          title: 'Come get one.',
+          body: 'Your new favorite burger is waiting.',
+          tags: [],
+          cta: { primary: { label: 'Find us', href: '#' },
+                 secondary: { label: 'See the menu', href: '#' } },
+        },
+      ],
+      // Dive + transition: each section clip is a Seedance dive; each connector is a
+      // transition generated from the REAL boundary frames (dive N's last frame -> dive
+      // N+1's first frame) with a gentle glide prompt. Scrolling off a dive starts its
+      // transition. length = sections - 1.
+      connectors: [
+        'assets/vid/conn1.mp4',
+        'assets/vid/conn2.mp4',
+        'assets/vid/conn3.mp4',
+      ],
+    });
+  </script>
+</body>
+</html>
