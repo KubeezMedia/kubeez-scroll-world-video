@@ -7,11 +7,9 @@
 
 ### ▶️ **[Live demo → kubeezmedia.github.io/kubeez-scroll-world-video](https://kubeezmedia.github.io/kubeez-scroll-world-video/)**
 
-*(Open on desktop and scroll. The scroll wheel drives the camera — like Apple's product pages.)*
+![Smash & Co. — scroll-world-video showcase](img/showcase.gif)
 
-<video src="https://kubeezmedia.github.io/kubeez-scroll-world-video/img/showcase.mp4" poster="img/showcase-poster.png" controls muted playsinline width="100%"></video>
-
-<sub>▶ Player not showing? [Watch the 20-second showcase](https://kubeezmedia.github.io/kubeez-scroll-world-video/img/showcase.mp4) · or scroll the [live demo](https://kubeezmedia.github.io/kubeez-scroll-world-video/) yourself.</sub>
+<sub>▶ **[Watch the full 20-second video](https://kubeezmedia.github.io/kubeez-scroll-world-video/img/showcase.mp4)** · or scroll the **[live demo](https://kubeezmedia.github.io/kubeez-scroll-world-video/)** yourself.</sub>
 
 ---
 
